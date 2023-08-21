@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson2 Page enhancement</title>
+    <title>Lesson3 Page enhancement</title>
 </head>
 <body>
     <style>
         .link {
             color: rgb(0,113,133);
+            transition: color 0.3s;
+        }
+        .link:hover {
+            color: rgb(255, 183, 0);
         }
         .price {
             color: rgb(0,118,0);
@@ -23,6 +27,12 @@
             margin-right: 10px;
             cursor: pointer;
         }
+        .cart:hover {
+            background-color: rgb(255,173,30);
+        }
+        .cart:active {
+            opacity: 0.7;
+        }
 
         .buy {
             background-color: rgb(255,164,28);
@@ -33,6 +43,12 @@
             margin-right: 10px;
             cursor: pointer;
             font-weight: bold;
+        }
+        .buy:hover {
+            background-color: rgb(255,216,20);
+        }
+        .buy:active {
+            opacity: 0.6;
         }
     </style>
     <a class="link" href="https://www.amazon.com" target="_blank" rel="noopener">Back to Amazon</a>
