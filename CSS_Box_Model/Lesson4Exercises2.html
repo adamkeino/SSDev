@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .page {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .links {
+            margin-right: 10px;
+            color: rgb(6,95,212);
+            transition: color 0.3s;
+        }
+        .links:hover {
+            color: red;
+        }
+        .stretch {
+            background-color: green;
+            color: white;
+            padding-left: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 18px;
+            cursor: pointer;
+            transition: padding-left 0.8s, padding-right 0.8s, padding-top 0.8s, padding-bottom 0.8s;
+        }
+        .stretch:hover {
+            padding-left: 38px;
+            padding-right: 38px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .shadow {
+            background-color: green;
+            color: white;
+            padding-left: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 18px;
+            cursor: pointer;
+            transition: box-shadow 0.15s;
+        }
+        .shadow:hover {
+            box-shadow: 4px 4px 2px rgba(0,0,0,0.15);
+        }
+        .shadow:active {
+            margin-top: 4px;
+            margin-left: 4px;
+            box-shadow: none;
+        }
+        .margin1 {
+            background-color: green;
+            color: white;
+            padding-left: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 18px;
+            margin-right: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+            transition: padding-left 0.2s,padding-right 0.2s,margin-right 0.2s,margin-left 0.2s;
+        }
+        .margin1:hover {
+            padding-left: 28px;
+            padding-right: 28px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .margin2 {
+            background-color: green;
+            color: white;
+            padding-left: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 18px;
+            margin-right: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+            transition: padding-left 0.2s,padding-right 0.2s,margin-right 0.2s,margin-left 0.2s;
+        }
+        .margin2:hover {
+            padding-left: 28px;
+            padding-right: 28px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .margin3 {
+            background-color: green;
+            color: white;
+            padding-left: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 18px;
+            margin-right: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+            transition: padding-left 0.2s,padding-right 0.2s,margin-right 0.2s,margin-left 0.2s;
+        }
+        .margin3:hover {
+            padding-left: 28px;
+            padding-right: 28px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    </style>
+    <button class="page">Back</button>
+    <a class="links" href="https://www.youtube.com">1</a>
+    <a class="links" href="https://www.youtube.com">2</a>
+    <a class="links" href="https://www.youtube.com">3</a>
+    <a class="links" href="https://www.youtube.com">4</a>
+    <a class="links" href="https://www.youtube.com">5</a>
+    <button class="page">Next</button>
+    <p></p>
+    <button class="stretch">Stretch</button>
+    <p></p>
+    <button class="shadow">Shadow</button>
+    <p></p>
+    <button class="margin1">One</button>
+    <button class="margin2">Two</button>
+    <button class="margin3">Three</button>
+</body>
+</html>
