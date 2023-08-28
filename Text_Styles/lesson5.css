@@ -1,0 +1,17 @@
+.tahoma {
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 35px;
+}
+.arial {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.arial1 {
+    font-family: arial;
+    font-style:italic;
+    color: red;
+    margin-top: 0;
+}

@@ -1,0 +1,40 @@
+p {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.price {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.usd {
+    font-size: 15px;
+    color: rgba(0,0,0,0.62);
+}
+.ticker {
+    color: rgb(24,128,56);
+    margin-bottom: 8px;
+}
+.after {
+    color: rgba(0,0,0,0.62);
+    margin-bottom: 100px;
+}
+.after2 {
+    color: rgb(217,48,37);
+}
+.free {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.at {
+    font-weight: lighter;
+    color: rgb(90,90,90);
+}
+.description {
+    margin-bottom: 8px;
+}
+.name {
+    cursor: pointer;
+    color: rgb(29,161,242);
+}
