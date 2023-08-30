@@ -1,8 +1,9 @@
 p {
     font-family: arial;
-    opacity: 0.5;
+    
 }
 .email {
+    opacity: 0.5;
     margin-bottom: 10px;
 }
 .search {
@@ -16,6 +17,9 @@ p {
     border-radius: 4px;
     margin-bottom: 5px;
 }
+.description {
+    opacity: 0.5;
+}
 .action {
     background-color: rgb(6, 120, 186);
     border: none;
@@ -26,6 +30,7 @@ p {
     border-radius: 25px;
     cursor: pointer;
     transition: background-color .2s, box-shadow .1s;
+    margin-bottom: 100px;
 }
 .action:hover {
     background-color: rgb(0,160,255);
@@ -33,4 +38,13 @@ p {
 .action:active {
     box-shadow: 3px 3px 4px rgba(0,0,0,.5);
     background-color: rgb(6, 120, 186);
+}
+.twit{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.twitt {
+    text-align: center;
+    font-family: arial;
 }
