@@ -1,0 +1,33 @@
+.names, .email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 15px;
+}
+
+.email {
+    display: block;
+    /* padding-right: 178px; */
+    width: 340px;
+}
+
+.action {
+    background-color: rgb(6,120,186);
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 350px;
+}
+.spacer {
+    margin-bottom: 100px;
+}
+.request {
+    font-family: arial;
+    font-size: 40px;
+}
