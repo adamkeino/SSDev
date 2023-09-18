@@ -1,0 +1,12 @@
+.name {
+    display: block;
+    margin-bottom: 4px;
+}
+.email {
+    margin-bottom: 50px;
+}
+.chat {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
