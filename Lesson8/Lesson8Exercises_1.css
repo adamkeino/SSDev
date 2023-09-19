@@ -31,3 +31,34 @@
     font-family: arial;
     font-size: 40px;
 }
+.loc, .desti {
+    display: block;
+    border: none;
+    background-color: rgba(0,0,0,0.1);
+    width: 335px;
+    padding-left: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 5px;
+}
+
+.desti{
+    margin-bottom: 35px;
+}
+.req {
+    width: 105px;
+    height: 55px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.schedule {
+    width: 215px;
+    height: 55px;
+    margin-left: 18px;
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    cursor: pointer;
+}
