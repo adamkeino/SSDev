@@ -8,5 +8,11 @@
     padding-top: 5px;
     padding-bottom: 5px;
     margin-right: 20px;
-    color: rgba(0,0,0,0.4)
+    color: rgba(0,0,0,0.4);
+    display: block;
+}
+
+.video-preview {
+    width: 300px;
+    display: inline-block;
 }
