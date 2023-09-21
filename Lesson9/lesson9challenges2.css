@@ -1,0 +1,49 @@
+.google {
+    padding-top: 150px;
+    padding-bottom: 20px;
+    width: 20%;
+    margin: auto;
+}
+
+.search {
+    width: 600px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    border-radius: 50px;
+    border: none;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.2);
+    margin-bottom: 35px;
+    align-items: center;
+}
+.goo {
+    width: 150px;
+    border: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-left: 350px;
+    border-radius: 6px;
+}
+
+.gooo {
+    font-family: arial;
+    font-weight: bold;
+}
+.goo2 {
+    width: 150px;
+    border: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 6px;
+}
