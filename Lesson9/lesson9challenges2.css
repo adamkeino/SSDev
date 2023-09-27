@@ -6,11 +6,12 @@
 }
 
 .search {
+    display: block;
     width: 600px;
     padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 200px;
+    margin-left: 400px;
     border-radius: 50px;
     border: none;
     border-width: 1px;
@@ -21,6 +22,7 @@
     align-items: center;
 }
 .goo {
+    display: inline-block;
     width: 150px;
     border: none;
     text-align: center;
@@ -28,22 +30,24 @@
     padding-top: 5px;
     padding-bottom: 5px;
     cursor: pointer;
-    margin-left: 350px;
     border-radius: 6px;
+    margin-left: 550px;
+}
+
+.goo2 {
+    display: inline-block;
+    width: 150px;
+    border: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 10px;
 }
 
 .gooo {
     font-family: arial;
     font-weight: bold;
-}
-.goo2 {
-    width: 150px;
-    border: none;
-    text-align: center;
-    background-color: rgba(0,0,0,0.1);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    cursor: pointer;
-    margin-left: 20px;
-    border-radius: 6px;
 }
