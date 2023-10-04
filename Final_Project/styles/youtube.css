@@ -21,4 +21,23 @@ div {
     display: inline-block;
     vertical-align: top;
     margin-right: 15px;
+    
+}
+
+.channelpic {
+    display: inline-block;
+    width: 50px;
+}
+
+.channelthumb {
+    width: 50px;
+}
+
+.videoinfo {
+    display: inline-block;
+    width: 200px;
+}
+
+.videothumb {
+    margin-bottom: 10px;
 }
