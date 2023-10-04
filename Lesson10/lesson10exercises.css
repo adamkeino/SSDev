@@ -1,0 +1,43 @@
+.card {
+
+    width: 500px;
+}
+
+p {
+    font-family: Roboto, arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.image {
+    display: inline-block;
+    width: 100;
+}
+
+.profile {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.thumb {
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.catname {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.description {
+    margin-bottom: 4px;   
+}
+
+.buttons {
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.follow {
+}
