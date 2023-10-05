@@ -5,8 +5,7 @@ p {
     margin-bottom: 0px;
 }
 .thumbnails {
-    width: 300px;
-    display: block;
+    width: 100%;
     border-radius: 4px;
 }
 
@@ -19,12 +18,11 @@ p {
     color: rgba(0,0,0,0.4);
     display: block;
 }
-
-.video-preview {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-    
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
 }
 
 .video-info-grid {
@@ -38,21 +36,17 @@ p {
 }
 
 .channelthumb {
-    width: 40px;
+    width: 100%;
     border-radius: 25px;
 }
 
-.videoinfo {
-    display: inline-block;
-    width: 200px;
-}
 
 .videothumb {
     margin-bottom: 10px;
 }
 
 .video-title {
-    width: 100%;
+    width: 95%;
     font-weight: bold;
     margin-top: 0px;
     font-size: 13px;
