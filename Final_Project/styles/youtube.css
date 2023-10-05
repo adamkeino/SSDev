@@ -27,9 +27,12 @@ p {
     
 }
 
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
 .channelpic {
-    display: inline-block;
-    width: 50px;
     vertical-align: top;
     margin-right: 5px;
 }
