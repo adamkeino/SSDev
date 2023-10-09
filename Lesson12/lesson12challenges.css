@@ -1,0 +1,137 @@
+p {
+    font-family: arial;
+    margin: 0;
+    font-weight: bold;
+}
+
+.e {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.number {
+    display: flex;
+    flex-direction: row;
+    flex: 0.1;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(45,126,245);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.f {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: blueviolet;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 25px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.f1 {
+    color: white;
+    flex: 0.1;
+    cursor: pointer;
+}
+.f2 {
+    flex: 1;
+    max-width: 750px;
+}
+
+.search {
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: none;
+}
+.search:a {
+    border: none;
+}
+.download {
+    margin-left: 30px;
+    margin-right: 25px;
+    height: 35px;
+    width: 80%;
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.download:hover {
+    background-color: rgba(138,43,22,0.5);
+    box-shadow: 0px 0px 2px 2px rgba(138,0,0,0.3);
+}
+.g {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.g1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.g2 {
+    width: 350px;
+}
+.g3{
+    text-align: end;
+}
+.name, .description, .popularity {
+    margin-left: 20px;
+}
+.follow {
+    margin: 0;
+    height: 35px;
+    width: 85px;
+    background-color: rgb(45,126,245);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.follow:hover {
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+}
+.follow:active {
+    background-color: rgba(45,125,245, 0.5);
+}
+.description, .popularity {
+    color: rgba(0,0,0,0.3);
+}
+.description {
+    font-size: 20px;
+    font-weight: bold;
+}
+.popularity {
+    font-size: 15px;
+}
