@@ -21,8 +21,13 @@
     max-width: 550px;
 }
 .right-section {
-    background-color: lightblue;
-    width: 250px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    margin-right: 20px;
+    flex-shrink: 0;
 }
 /* Left Section */
 .hamburger-menu {
@@ -47,6 +52,7 @@
     border-style: solid;
     box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.2);
     padding-left: 10px;
+    width: 0;
 }
 .search-bar::placeholder {
     font-family: roboto, arial;
@@ -84,8 +90,16 @@
 }
 /* Right Section */
 .upload-icon {
-    height: 24px;
+    height: 25px;
 }
 .apps-icon {
-    height: 24px;
+    height: 25px;
+}
+.notifications-icon {
+    height: 25px;
+}
+.channel-icon{
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
 }
