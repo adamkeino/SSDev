@@ -1,0 +1,71 @@
+p {
+    margin: 0;
+    font-family: arial;
+}
+.bigcontainer {
+    margin-bottom: 50px;
+}
+.smallcontainer{
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+    padding: 5px;
+}
+.smallcontainer2 {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+    padding: 5px;
+}
+.headliner {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: arial;
+    font-size: 14px;
+    color: rgb(159, 159, 159);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.profile-photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.content-flex {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.photo-container {
+    width: 60px;
+    margin-right: 5px;
+}
+.text-container {
+    flex: 1;
+}
+.name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.time {
+    color: rgb(159, 159, 159);
+    padding-right: 10px;
+}
+.sale {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.description {
+    color: rgb(159, 159, 159);
+}
