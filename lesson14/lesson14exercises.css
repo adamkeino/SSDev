@@ -1,0 +1,16 @@
+.a {
+    position: fixed;
+    bottom: 20px;
+    right: 120px;
+    background-color: black;
+    color: white;
+}
+.b {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
